@@ -14,9 +14,13 @@ Ever had a game ignore your input because you pressed the button a millisecond t
 
 ### C#
 
+__**Not built yet, and probably won't ever be.**__
+
 Same process as the GDScript version, except the file is called `InputBuffer.cs`. Download the file, add it to your project as an AutoLoad script, and call `InputBuffer.IsActionPressBuffered` where you'd usually call `Input.IsActionJustPressed`.
 
 ## Demo
+
+__**Also not updated yet.**__
 
 ![Demo screenshot](demo_screenshot.png)
 
