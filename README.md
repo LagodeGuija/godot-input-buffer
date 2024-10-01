@@ -12,16 +12,4 @@ Ever had a game ignore your input because you pressed the button a millisecond t
 2. Add the `input_buffer.gd` script to your project's AutoLoad settings. More information on how to do that can be found [here](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html#autoload).
 3. That's all the setup you need! To use it in your game, just call `InputBuffer.is_action_press_buffered` where you'd usually call `Input.is_action_just_pressed`
 
-### C#
-
-__**Not built yet, and probably won't ever be.**__
-
-Same process as the GDScript version, except the file is called `InputBuffer.cs`. Download the file, add it to your project as an AutoLoad script, and call `InputBuffer.IsActionPressBuffered` where you'd usually call `Input.IsActionJustPressed`.
-
-## Demo
-
-__**Also not updated yet.**__
-
-![Demo screenshot](demo_screenshot.png)
-
-I made a replica of the Google Chrome dino game to test the input buffer (and practice a few other things, like saving & loading data and working with Godot's UI features). It's included in this repository if you want to try it out. Note that it's made in C#, so you'll need [the Mono SDK](https://www.mono-project.com/download/stable/) and [the Mono version of Godot](https://godotengine.org/download). Press the spacebar to jump and press the escape key to toggle the input buffer on and off. You may notice it's easier to quickly jump up and down when the buffer is on.
+MIT License
